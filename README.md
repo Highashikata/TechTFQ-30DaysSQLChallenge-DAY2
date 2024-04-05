@@ -3,7 +3,7 @@ going through the challenge of SQL interview questions featured in the TechTFQ c
 
 
 
-In this repository we will be going through the SQL interview questions featured in the following YouTube Playlist [SQL Interview Questions][https://www.youtube.com/watch?v=FRzbOb3jdLg&list=PLavw5C92dz9Hxz0YhttDniNgKejQlPoAn](https://www.youtube.com/watch?v=rM1BVoBke04&list=PLavw5C92dz9Hxz0YhttDniNgKejQlPoAn&index=2).
+In this repository we will be going through the SQL interview questions featured in the following YouTube Playlist [SQL Interview Questions](https://www.youtube.com/watch?v=rM1BVoBke04&list=PLavw5C92dz9Hxz0YhttDniNgKejQlPoAn&index=2).
 
 # **Day 2: The problem statement:**
 
