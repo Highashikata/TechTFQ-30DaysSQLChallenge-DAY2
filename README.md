@@ -50,3 +50,65 @@ Each entry in the table trails represents a direct connection between huts with 
 Create a query that finds all triplets(startpt,middlept,endpt) representing the mountain huts that may be used for construction of a ski slope.
 Output returned by the query can be ordered in any way.
 
+
+Each entry in the table trails represents a direct connection between huts with IDs hut1 and hut2. Note that all trails are bidirectional.
+Create a query that finds all triplets(startpt,middlept,endpt) representing the mountain huts that may be used for construction of a ski slope.
+Output returned by the query can be ordered in any way.
+Examples:
+1.Given the tables:
+mountain_huts:
+Id
+Name
+Altitude
+1
+Dakonat
+1900
+2
+Natisa
+2100
+3
+Gajantut
+1600
+4
+Rifat
+782
+5
+Tupur
+1370
+trails:
+Hut1
+Hut2
+1
+3
+3
+2
+3
+5
+4
+5
+1
+5
+Your query should return:
+startpt
+middlept
+endpt
+Dakonat
+Gajantut
+Tupur
+Dakonat
+Tupur
+Rifat
+Gajantut
+Tupur
+Rifat
+Natisa
+Gajantut
+Tupur
+Assume that:
+
+ there is no trail going from a hut back to itself;
+
+ for every two huts there is at most one direct trail connecting them;
+
+ each hut from table trails occurs in table mountain_huts;
+
