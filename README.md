@@ -13,6 +13,7 @@ The altitude of the 3 huts chosen for constructing the ski slope has to be stric
 
 We are given 2 SQL tabes, mountain_huts and trail, with the following structure:
 
+**DDL**
 ```
 create table mountain_huts(
   id integer not null,
@@ -27,7 +28,11 @@ create table trails(
   hut2 integer not null
 );
 
+```
 
+**DML**
+
+```
 insert into mountain_huts values (1, 'Dakonat', 1900);
 insert into mountain_huts values (2, 'Natisa', 2100);
 insert into mountain_huts values (3, 'Gajantut', 1600);
