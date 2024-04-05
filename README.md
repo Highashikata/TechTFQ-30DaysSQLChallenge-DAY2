@@ -61,6 +61,8 @@ Examples:
 
 
 Your query should return:
+
+
 ![image](https://github.com/Highashikata/TechTFQ-30DaysSQLChallenge-DAY2/assets/96960411/f294a8e1-2123-43e7-9873-cba1eb44ca3b)
 
 Assume that:
